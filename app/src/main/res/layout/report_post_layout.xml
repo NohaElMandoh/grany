@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp">
+<RadioGroup
+
+    android:layout_gravity="left"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <RadioButton
+        android:layout_margin="5dp"
+        android:text="Option 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_margin="5dp"
+        android:text="Option 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_margin="5dp"
+        android:text="Option 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_margin="5dp"
+        android:text="Other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RadioGroup>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:text="@string/post_STR"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"></LinearLayout>
+            <Button
+                android:text="CANCEL"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <Button
+                android:text="REPORT"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

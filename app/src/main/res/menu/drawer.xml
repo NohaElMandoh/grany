@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:checked="false"
+            android:icon="@drawable/ic_home_black_36dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:checked="false"
+            android:icon="@drawable/ic_person_black_48dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/places"
+            android:checked="false"
+            android:icon="@drawable/ic_place_black_48dp"
+            android:title="Places" />
+        <item
+            android:id="@+id/add_place"
+            android:checked="false"
+            android:icon="@drawable/ic_add_circle_black_48dp"
+            android:title="Add Current Place" />
+        <item
+            android:id="@+id/projects"
+            android:checked="false"
+            android:icon="@drawable/projects"
+            android:title="Projects" />
+        <item
+            android:id="@+id/settings"
+            android:checked="false"
+            android:icon="@drawable/ic_settings_black"
+            android:title="Settings" />
+    </group>
+</menu>

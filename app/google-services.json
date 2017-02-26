@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "979685956355",
+    "firebase_url": "https://grany-app.firebaseio.com",
+    "project_id": "grany-app",
+    "storage_bucket": "grany-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979685956355:android:0dadcc09fb74f244",
+        "android_client_info": {
+          "package_name": "mo.ed.prof_mohamed.geranyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979685956355-7kcr691v38j6a7mp5u1b64nghvoinn4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mo.ed.prof_mohamed.geranyapp",
+            "certificate_hash": "1DF1C38C88DE6C315D5847405E3CD57D79AD8CB9"
+          }
+        },
+        {
+          "client_id": "979685956355-d3ge85sdqjh93jm7g53eribu14cdc4er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcpTmRDxyxKoiWQjdxY3NC6z1Qur7VFME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979685956355-d3ge85sdqjh93jm7g53eribu14cdc4er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
